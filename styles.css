@@ -1,0 +1,82 @@
+
+body{
+    background-image: url(pic\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+header{
+display: flex;
+justify-content:space-evenly;
+align-items:center; /* Vertically align items in the center */
+padding: 10px;
+color:white;
+font-size: 40px;
+gap:40px;
+font-family: "Sofia", sans-serif;
+background-image: url(pic\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+
+header img {
+max-width: 300px;
+height: auto;
+} 
+.company{
+display:flex;
+}
+
+nav {
+display: flex;
+flex-direction: column;
+width: 200px;
+padding: 10px;
+
+}
+nav a {
+color:white;
+text-decoration: none;
+padding: 10px 0;
+text-align: center;
+}
+nav a:hover {
+background-color:black;
+}
+.content{
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+gap: 30px; /* Gap between columns */
+max-width: 1000px;
+margin:0 auto; /* Center the container */
+padding: 20px;
+font-family: "Sofia", sans-serif;
+}
+.column {
+color: black;
+padding: 20px;
+justify-content: center;
+background-color:chocolate;
+}
+.picture{
+padding: 20px;
+}
+.picture img{
+max-width:700px;
+height: auto;
+border-radius: 8px;
+}
+h2{
+font-size: 30px;
+color:black;
+justify-content: space-evenly;
+}
+p{
+font-size: 20px;
+}
+.address,.footer{
+color:white;
+font-family: "Sofia", sans-serif;}
